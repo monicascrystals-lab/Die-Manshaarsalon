@@ -1,9 +1,9 @@
 :root {
   --primary: #0136ad;
   --accent: #f90101;
-  --text: #14213d;
-  --muted: #5f6b7a;
-  --bg: #f8f9fc;
+  --text: hwb(0 93% 4%);
+  --muted: #0d131b;
+  --bg: #ebedf3;
   --surface: #ffffff;
   --shadow: 0 20px 45px rgba(1, 54, 173, 0.12);
   --radius: 22px;
@@ -159,12 +159,12 @@ h1,
 
 h1 {
   font-size: clamp(2.4rem, 4.8vw, 4rem);
-  color: var(--primary);
+  color: var(--#ffffff);
 }
 
 h2 {
   font-size: clamp(1.8rem, 3vw, 2.4rem);
-  color: var(--primary);
+  color: var(#ffffff);
 }
 
 .hero-text,
@@ -174,7 +174,7 @@ h2 {
 .testimonial,
 .benefit-item p,
 .site-footer p {
-  color: var(--muted);
+  color: var(--#ffffff);
 }
 
 .hero-actions {
@@ -189,7 +189,7 @@ h2 {
   align-items: center;
   justify-content: center;
   padding: 0.95rem 1.35rem;
-  border-radius: 999px;
+  border-radius: 9px;
   font-weight: 700;
   box-shadow: var(--shadow);
 }
@@ -218,7 +218,7 @@ h2 {
 }
 
 .hero-highlights li {
-  background: rgba(1, 54, 173, 0.08);
+  background: rgba(1, 36, 119, 0.322);
   color: var(--primary);
   padding: 0.45rem 0.8rem;
   border-radius: 999px;
