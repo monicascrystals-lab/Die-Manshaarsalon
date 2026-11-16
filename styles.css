@@ -1,9 +1,9 @@
 :root {
   --primary: #0136ad;
-  --accent: #f90101;
-  --text: hwb(0 93% 4%);
-  --muted: #0d131b;
-  --bg: #ebedf3;
+  --accent: #7A0000;
+  --text: #15324A;
+  --muted: #15324A;
+  --bg: #90A8C0;
   --surface: #ffffff;
   --shadow: 0 20px 45px rgba(1, 54, 173, 0.12);
   --radius: 22px;
@@ -21,7 +21,7 @@ body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: var(--text);
-  background: linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
+  background: var(--bg);
   line-height: 1.7;
   cursor: none;
 }
@@ -75,7 +75,7 @@ a:hover {
   font-family: "Times New Roman", Georgia, serif;
   font-size: 1.35rem;
   font-weight: 700;
-  color: var(--primary);
+  color: #C62828;
   letter-spacing: 0.03em;
 }
 
@@ -144,6 +144,10 @@ a:hover {
   font-size: 0.8rem;
 }
 
+.hero .eyebrow {
+  color: #0504AA;
+}
+
 h1,
 h2,
 h3,
@@ -159,12 +163,16 @@ h1,
 
 h1 {
   font-size: clamp(2.4rem, 4.8vw, 4rem);
-  color: var(--#ffffff);
+  color: var(--text);
+}
+
+.hero h1 {
+  color: #101820;
 }
 
 h2 {
   font-size: clamp(1.8rem, 3vw, 2.4rem);
-  color: var(#ffffff);
+  color: var(--text);
 }
 
 .hero-text,
@@ -174,7 +182,11 @@ h2 {
 .testimonial,
 .benefit-item p,
 .site-footer p {
-  color: var(--#ffffff);
+  color: var(--text);
+}
+
+.hero .hero-text {
+  color: #101820;
 }
 
 .hero-actions {
@@ -218,8 +230,8 @@ h2 {
 }
 
 .hero-highlights li {
-  background: rgba(1, 36, 119, 0.322);
-  color: var(--primary);
+  background: var(--primary);
+  color: #fff;
   padding: 0.45rem 0.8rem;
   border-radius: 999px;
   font-size: 0.95rem;
@@ -336,7 +348,7 @@ h2 {
 }
 
 .contact-list a {
-  color: var(--primary);
+  color: var(--text);
   font-weight: 600;
 }
 
@@ -368,7 +380,7 @@ h2 {
 }
 
 .legal-links a {
-  color: var(--primary);
+  color: var(--text);
   font-weight: 700;
 }
 
